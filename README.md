@@ -30,5 +30,5 @@ Partly inspired by NeoCat's Arduino Twitter Library
 very happy user until, on a very sad day in April 2023, the Twitter
 API stopped working and I, like many others, made the jump to the
 Fediverse along with my trusted robot
-(https://fosstodon.org/@theRobotMark3@mastodon.bot).
+(https://mastodon.bot/@theRobotMark3).
 
