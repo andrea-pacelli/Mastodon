@@ -3,6 +3,8 @@
 // Mastodon - Tooting from Arduino
 // AP2023-2024.
 //
+// This code is licensed under the MIT license (see LICENSE.md)
+//
 //////////////////////////////////////////////////////////////////
 
 #include <Mastodon.h>
