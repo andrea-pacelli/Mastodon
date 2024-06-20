@@ -21,7 +21,27 @@ functions are provided:
 
 ## Examples
 
-TBD
+### send_toot
+
+This example sends a test toot (hardcoded in the loop() function). The
+header file arduino_secrets.h must be populated with the following
+constant strings:
+
+* SECRET_HOSTNAME: hostname of the Arduino board for
+  self-identification (it can be anything you want).
+
+* SECRET_SSID, SECRET_PASS: SSID and password of Wi-Fi network to
+  which the board will connect.
+
+* SECRET_SERVER: The name of the Mastodon server, e.g., fosstodon.org.
+
+* SECRET_TOKEN: The OAuth token that can be obtained from the Mastodon
+  server (go to Preferences > Development > New application)
+
+### verify_credentials
+
+Similar to send_toot, but simply verifies the credentials provided
+without posting anything.
 
 ## Acknowledgments
 
